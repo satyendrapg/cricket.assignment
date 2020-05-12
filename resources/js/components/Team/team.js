@@ -61,9 +61,9 @@ class team extends Component{
                  <td>{el.runs}</td>
                  <td>{el.highestScores}</td>
                  <td>
-                   <Link to={'/player/edit/'+el.id}><img height="15" width="15" src={'http://cricket.assignment.local/storage/img/edit-icon.jpg'}/></Link>
+                   <Link to={'/player/edit/'+el.id}><img height="15" width="15" src={'img/edit-icon.jpg'}/></Link>
                     &nbsp; &nbsp;
-                   <Link onClick={()=>{this.deletePlayer(el.id)}}><img height="20" width="20" src={'http://cricket.assignment.local/storage/img/del-icon.png'}/></Link>
+                   <Link onClick={()=>{this.deletePlayer(el.id)}}><img height="20" width="20" src={'img/del-icon.png'}/></Link>
                  </td>
                </tr>
         ));
